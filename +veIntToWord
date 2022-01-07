@@ -2,37 +2,43 @@
 
 int main(){
     int n;
-    printf("Enter the number:- ");
     scanf("%d", &n);
     if (1<=n && n<=9)
     {
         if (n==1){
-            printf("One");
+            printf("one");
         }
         else if (n==2){
-            printf("Two");
+            printf("two");
         }
         else if (n==3){
-            printf("Three");
+            printf("three");
         }
         else if (n==4){
-            printf("Four");
+            printf("four");
         }
         else if (n==5){
-            printf("Five");
+            printf("five");
         }        
         else if (n==6){
-            printf("Six");
+            printf("six");
         }
         else if (n==7){
-            printf("Seven");
+            printf("seven");
         }
         else if (n==8){
-            printf("Eight");
+            printf("eight");
         }
         else if (n==9){
-            printf("Nine");
+            printf("nine");
         }
+    }
+    else{
+        printf("Greater than 9");
+    }    
+    return 0;
+}
+
     }
     else{
         printf("Greater than 9");
